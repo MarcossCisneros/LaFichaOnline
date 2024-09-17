@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: #000000;
+    background-image: url('../img/Fondo.jpg');
+    background-size: contain;
+    background-position: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 2rem 0;
+}
+
+.logo img {
+    width: 14rem;
+}
+
+
+
+.main-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info{
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 20px;
+}
+
+.main-title p {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.main-title p:first-child {
+    color: white;
+}
+
+.main-title p:last-child {
+    color: #ffc400;
+}
+
+.whatsapp {
+    margin: 3rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 0.6em 1.3em;
+    display: flex;
+    gap: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    background-color: #010101;
+    border-radius: 10px;
+    border: 1px solid rgb(143, 18, 192);
+    color: aliceblue;
+    box-shadow:0 0 25px rgb(255, 255, 255),
+               0 0 25px rgb(250, 249, 239),
+               0 0 5px rgb(255, 253, 250) inset;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow:  0 0 30px rgb(210, 13, 254),
+                 0 0 30px rgb(218, 27, 244),
+                 0 0 10px rgb(249, 35, 249) inset;;
+}
+
+.button img {
+    width: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.info p {
+    font-size: 18px;
+    color: white;
+}
+
+.info h3 {
+    font-size: 25px;
+    text-align: center;
+}
